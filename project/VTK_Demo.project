@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="VTK_Demo" InternalType="Console">
+  <Plugins>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+		"name":	"Debug",
+		"enabled":	false,
+		"buildDirectory":	"build",
+		"sourceDirectory":	"$(ProjectPath)",
+		"generator":	"",
+		"buildType":	"",
+		"arguments":	[],
+		"parentProject":	""
+	}, {
+		"name":	"Release",
+		"enabled":	false,
+		"buildDirectory":	"build",
+		"sourceDirectory":	"$(ProjectPath)",
+		"generator":	"",
+		"buildType":	"",
+		"arguments":	[],
+		"parentProject":	""
+	}]]]>
+    </Plugin>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../src/Cone.cxx"/>
+    <File Name="../src/ovr.cxx"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../include/Cone.hxx"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/"/>
+        <Library Value="libvtkalglib-6.2.so"/>
+        <Library Value="libvtkChartsCore-6.2.so"/>
+        <Library Value="libvtkChartsCorePython27D-6.2.so"/>
+        <Library Value="libvtkCommonColor-6.2.so"/>
+        <Library Value="libvtkCommonColorPython27D-6.2.so"/>
+        <Library Value="libvtkCommonComputationalGeometry-6.2.so"/>
+        <Library Value="libvtkCommonComputationalGeometryPython27D-6.2.so"/>
+        <Library Value="libvtkCommonCore-6.2.so"/>
+        <Library Value="libvtkCommonCorePython27D-6.2.so"/>
+        <Library Value="libvtkCommonDataModel-6.2.so"/>
+        <Library Value="libvtkCommonDataModelPython27D-6.2.so"/>
+        <Library Value="libvtkCommonExecutionModel-6.2.so"/>
+        <Library Value="libvtkCommonExecutionModelPython27D-6.2.so"/>
+        <Library Value="libvtkCommonMath-6.2.so"/>
+        <Library Value="libvtkCommonMathPython27D-6.2.so"/>
+        <Library Value="libvtkCommonMisc-6.2.so"/>
+        <Library Value="libvtkCommonMiscPython27D-6.2.so"/>
+        <Library Value="libvtkCommonSystem-6.2.so"/>
+        <Library Value="libvtkCommonSystemPython27D-6.2.so"/>
+        <Library Value="libvtkCommonTransforms-6.2.so"/>
+        <Library Value="libvtkCommonTransformsPython27D-6.2.so"/>
+        <Library Value="libvtkDICOMParser-6.2.so"/>
+        <Library Value="libvtkDomainsChemistry-6.2.so"/>
+        <Library Value="libvtkDomainsChemistryPython27D-6.2.so"/>
+        <Library Value="libvtkexoIIc-6.2.so"/>
+        <Library Value="libvtkexpat-6.2.so"/>
+        <Library Value="libvtkFiltersAMR-6.2.so"/>
+        <Library Value="libvtkFiltersAMRPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersCore-6.2.so"/>
+        <Library Value="libvtkFiltersCorePython27D-6.2.so"/>
+        <Library Value="libvtkFiltersExtraction-6.2.so"/>
+        <Library Value="libvtkFiltersExtractionPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersFlowPaths-6.2.so"/>
+        <Library Value="libvtkFiltersFlowPathsPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersGeneral-6.2.so"/>
+        <Library Value="libvtkFiltersGeneralPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersGeneric-6.2.so"/>
+        <Library Value="libvtkFiltersGenericPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersGeometry-6.2.so"/>
+        <Library Value="libvtkFiltersGeometryPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersHybrid-6.2.so"/>
+        <Library Value="libvtkFiltersHybridPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersHyperTree-6.2.so"/>
+        <Library Value="libvtkFiltersHyperTreePython27D-6.2.so"/>
+        <Library Value="libvtkFiltersImaging-6.2.so"/>
+        <Library Value="libvtkFiltersImagingPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersModeling-6.2.so"/>
+        <Library Value="libvtkFiltersModelingPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersParallel-6.2.so"/>
+        <Library Value="libvtkFiltersParallelImaging-6.2.so"/>
+        <Library Value="libvtkFiltersParallelImagingPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersParallelPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersProgrammable-6.2.so"/>
+        <Library Value="libvtkFiltersProgrammablePython27D-6.2.so"/>
+        <Library Value="libvtkFiltersPython-6.2.so"/>
+        <Library Value="libvtkFiltersPythonPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersSelection-6.2.so"/>
+        <Library Value="libvtkFiltersSelectionPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersSMP-6.2.so"/>
+        <Library Value="libvtkFiltersSMPPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersSources-6.2.so"/>
+        <Library Value="libvtkFiltersSourcesPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersStatistics-6.2.so"/>
+        <Library Value="libvtkFiltersStatisticsPython27D-6.2.so"/>
+        <Library Value="libvtkFiltersTexture-6.2.so"/>
+        <Library Value="libvtkFiltersTexturePython27D-6.2.so"/>
+        <Library Value="libvtkFiltersVerdict-6.2.so"/>
+        <Library Value="libvtkFiltersVerdictPython27D-6.2.so"/>
+        <Library Value="libvtkfreetype-6.2.so"/>
+        <Library Value="libvtkftgl-6.2.so"/>
+        <Library Value="libvtkGeovisCore-6.2.so"/>
+        <Library Value="libvtkGeovisCorePython27D-6.2.so"/>
+        <Library Value="libvtkgl2ps-6.2.so"/>
+        <Library Value="libvtkhdf5-6.2.so"/>
+        <Library Value="libvtkhdf5_hl-6.2.so"/>
+        <Library Value="libvtkImagingColor-6.2.so"/>
+        <Library Value="libvtkImagingColorPython27D-6.2.so"/>
+        <Library Value="libvtkImagingCore-6.2.so"/>
+        <Library Value="libvtkImagingCorePython27D-6.2.so"/>
+        <Library Value="libvtkImagingFourier-6.2.so"/>
+        <Library Value="libvtkImagingFourierPython27D-6.2.so"/>
+        <Library Value="libvtkImagingGeneral-6.2.so"/>
+        <Library Value="libvtkImagingGeneralPython27D-6.2.so"/>
+        <Library Value="libvtkImagingHybrid-6.2.so"/>
+        <Library Value="libvtkImagingHybridPython27D-6.2.so"/>
+        <Library Value="libvtkImagingMath-6.2.so"/>
+        <Library Value="libvtkImagingMathPython27D-6.2.so"/>
+        <Library Value="libvtkImagingMorphological-6.2.so"/>
+        <Library Value="libvtkImagingMorphologicalPython27D-6.2.so"/>
+        <Library Value="libvtkImagingSources-6.2.so"/>
+        <Library Value="libvtkImagingSourcesPython27D-6.2.so"/>
+        <Library Value="libvtkImagingStatistics-6.2.so"/>
+        <Library Value="libvtkImagingStatisticsPython27D-6.2.so"/>
+        <Library Value="libvtkImagingStencil-6.2.so"/>
+        <Library Value="libvtkImagingStencilPython27D-6.2.so"/>
+        <Library Value="libvtkInfovisCore-6.2.so"/>
+        <Library Value="libvtkInfovisCorePython27D-6.2.so"/>
+        <Library Value="libvtkInfovisLayout-6.2.so"/>
+        <Library Value="libvtkInfovisLayoutPython27D-6.2.so"/>
+        <Library Value="libvtkInteractionImage-6.2.so"/>
+        <Library Value="libvtkInteractionImagePython27D-6.2.so"/>
+        <Library Value="libvtkInteractionStyle-6.2.so"/>
+        <Library Value="libvtkInteractionStylePython27D-6.2.so"/>
+        <Library Value="libvtkInteractionWidgets-6.2.so"/>
+        <Library Value="libvtkInteractionWidgetsPython27D-6.2.so"/>
+        <Library Value="libvtkIOAMR-6.2.so"/>
+        <Library Value="libvtkIOAMRPython27D-6.2.so"/>
+        <Library Value="libvtkIOCore-6.2.so"/>
+        <Library Value="libvtkIOCorePython27D-6.2.so"/>
+        <Library Value="libvtkIOEnSight-6.2.so"/>
+        <Library Value="libvtkIOEnSightPython27D-6.2.so"/>
+        <Library Value="libvtkIOExodus-6.2.so"/>
+        <Library Value="libvtkIOExodusPython27D-6.2.so"/>
+        <Library Value="libvtkIOExport-6.2.so"/>
+        <Library Value="libvtkIOExportPython27D-6.2.so"/>
+        <Library Value="libvtkIOGeometry-6.2.so"/>
+        <Library Value="libvtkIOGeometryPython27D-6.2.so"/>
+        <Library Value="libvtkIOImage-6.2.so"/>
+        <Library Value="libvtkIOImagePython27D-6.2.so"/>
+        <Library Value="libvtkIOImport-6.2.so"/>
+        <Library Value="libvtkIOImportPython27D-6.2.so"/>
+        <Library Value="libvtkIOInfovis-6.2.so"/>
+        <Library Value="libvtkIOInfovisPython27D-6.2.so"/>
+        <Library Value="libvtkIOLegacy-6.2.so"/>
+        <Library Value="libvtkIOLegacyPython27D-6.2.so"/>
+        <Library Value="libvtkIOLSDyna-6.2.so"/>
+        <Library Value="libvtkIOLSDynaPython27D-6.2.so"/>
+        <Library Value="libvtkIOMINC-6.2.so"/>
+        <Library Value="libvtkIOMINCPython27D-6.2.so"/>
+        <Library Value="libvtkIOMovie-6.2.so"/>
+        <Library Value="libvtkIOMoviePython27D-6.2.so"/>
+        <Library Value="libvtkIONetCDF-6.2.so"/>
+        <Library Value="libvtkIONetCDFPython27D-6.2.so"/>
+        <Library Value="libvtkIOParallel-6.2.so"/>
+        <Library Value="libvtkIOParallelPython27D-6.2.so"/>
+        <Library Value="libvtkIOParallelXML-6.2.so"/>
+        <Library Value="libvtkIOParallelXMLPython27D-6.2.so"/>
+        <Library Value="libvtkIOPLY-6.2.so"/>
+        <Library Value="libvtkIOPLYPython27D-6.2.so"/>
+        <Library Value="libvtkIOSQL-6.2.so"/>
+        <Library Value="libvtkIOSQLPython27D-6.2.so"/>
+        <Library Value="libvtkIOVideo-6.2.so"/>
+        <Library Value="libvtkIOVideoPython27D-6.2.so"/>
+        <Library Value="libvtkIOXML-6.2.so"/>
+        <Library Value="libvtkIOXMLParser-6.2.so"/>
+        <Library Value="libvtkIOXMLParserPython27D-6.2.so"/>
+        <Library Value="libvtkIOXMLPython27D-6.2.so"/>
+        <Library Value="libvtkjpeg-6.2.so"/>
+        <Library Value="libvtkjsoncpp-6.2.so"/>
+        <Library Value="libvtklibxml2-6.2.so"/>
+        <Library Value="libvtkLocalExample-6.2.so"/>
+        <Library Value="libvtkmetaio-6.2.so"/>
+        <Library Value="libvtkNetCDF-6.2.so"/>
+        <Library Value="libvtkNetCDF_cxx-6.2.so"/>
+        <Library Value="libvtkoggtheora-6.2.so"/>
+        <Library Value="libvtkParallelCore-6.2.so"/>
+        <Library Value="libvtkParallelCorePython27D-6.2.so"/>
+        <Library Value="libvtkpng-6.2.so"/>
+        <Library Value="libvtkproj4-6.2.so"/>
+        <Library Value="libvtkRenderingAnnotation-6.2.so"/>
+        <Library Value="libvtkRenderingAnnotationPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingContext2D-6.2.so"/>
+        <Library Value="libvtkRenderingContext2DPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingContextOpenGL-6.2.so"/>
+        <Library Value="libvtkRenderingContextOpenGLPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingCore-6.2.so"/>
+        <Library Value="libvtkRenderingCorePython27D-6.2.so"/>
+        <Library Value="libvtkRenderingFreeType-6.2.so"/>
+        <Library Value="libvtkRenderingFreeTypeOpenGL-6.2.so"/>
+        <Library Value="libvtkRenderingFreeTypeOpenGLPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingFreeTypePython27D-6.2.so"/>
+        <Library Value="libvtkRenderingGL2PS-6.2.so"/>
+        <Library Value="libvtkRenderingGL2PSPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingImage-6.2.so"/>
+        <Library Value="libvtkRenderingImagePython27D-6.2.so"/>
+        <Library Value="libvtkRenderingLabel-6.2.so"/>
+        <Library Value="libvtkRenderingLabelPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingLIC-6.2.so"/>
+        <Library Value="libvtkRenderingLICPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingLOD-6.2.so"/>
+        <Library Value="libvtkRenderingLODPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingOpenGL-6.2.so"/>
+        <Library Value="libvtkRenderingOpenGLPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingVolume-6.2.so"/>
+        <Library Value="libvtkRenderingVolumeAMR-6.2.so"/>
+        <Library Value="libvtkRenderingVolumeAMRPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingVolumeOpenGL-6.2.so"/>
+        <Library Value="libvtkRenderingVolumeOpenGLPython27D-6.2.so"/>
+        <Library Value="libvtkRenderingVolumePython27D-6.2.so"/>
+        <Library Value="libvtksqlite-6.2.so"/>
+        <Library Value="libvtksys-6.2.so"/>
+        <Library Value="libvtkTestingGenericBridge-6.2.so"/>
+        <Library Value="libvtkTestingIOSQL-6.2.so"/>
+        <Library Value="libvtkTestingRendering-6.2.so"/>
+        <Library Value="libvtkTestingRenderingPython27D-6.2.so"/>
+        <Library Value="libvtktiff-6.2.so"/>
+        <Library Value="libvtkverdict-6.2.so"/>
+        <Library Value="libvtkViewsContext2D-6.2.so"/>
+        <Library Value="libvtkViewsContext2DPython27D-6.2.so"/>
+        <Library Value="libvtkViewsCore-6.2.so"/>
+        <Library Value="libvtkViewsCorePython27D-6.2.so"/>
+        <Library Value="libvtkViewsInfovis-6.2.so"/>
+        <Library Value="libvtkViewsInfovisPython27D-6.2.so"/>
+        <Library Value="libvtkWrappingPython27Core-6.2.so"/>
+        <Library Value="libvtkzlib-6.2.so"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="../bin/Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="../bin/Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
