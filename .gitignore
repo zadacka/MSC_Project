@@ -38,5 +38,9 @@ Thumbs.db
 
 # Folders that aren't needed #
 bin
-project
 sundry
+project/.codelite
+project/VTK_Demo.mk
+project/VTK_Demo.txt
+project/MCS_Project.txt
+project/Makefile
