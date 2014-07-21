@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="MCS_Project" Database="">
+  <Environment>
+    <![CDATA[]]>
+  </Environment>
+  <Project Name="MCS_Project" Path="MCS_Project.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="OculusRiftExamples" ConfigName="DEBUG"/>
+      <Project Name="MCS_Project" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="OculusRiftExamples" ConfigName="DEBUG"/>
+      <Project Name="MCS_Project" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
