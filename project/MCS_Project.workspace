@@ -3,15 +3,17 @@
   <Environment>
     <![CDATA[]]>
   </Environment>
-  <Project Name="MCS_Project" Path="MCS_Project.project" Active="Yes"/>
+  <Project Name="VTK_Demo" Path="VTK_Demo.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="OculusRiftExamples" ConfigName="DEBUG"/>
       <Project Name="MCS_Project" ConfigName="Debug"/>
+      <Project Name="VTK_Demo" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="OculusRiftExamples" ConfigName="DEBUG"/>
       <Project Name="MCS_Project" ConfigName="Release"/>
+      <Project Name="VTK_Demo" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
